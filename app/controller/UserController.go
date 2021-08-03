@@ -31,8 +31,6 @@ func User(c *gin.Context) {
 			s.list()
 		}
 	case c.Request.Method == "PUT":
-		b8023
-
 		s.display.IsLogin(s.data)
 		s.update()
 	case c.Request.Method == "DELETE":
